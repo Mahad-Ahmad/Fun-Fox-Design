@@ -17,7 +17,7 @@
 } */
 
 body {
-  font-family: 'Short Stack';
+  font-family: "Short Stack";
   /* color: rgb(var(--foreground-rgb)); */
   /* background: linear-gradient(
       to bottom,
@@ -33,4 +33,16 @@ body {
   }
 }
 
+.cloud-content {
+  position: relative;
+}
 
+.overlay-text {
+  font-size: 20px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; /* Ensure the text appears above the pseudo-element */
+}

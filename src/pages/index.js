@@ -91,18 +91,7 @@ export default function Home() {
   <div class="relative m-[0_0_0_65px] flex flex-row justify-center p-[3px_0_0_9px] w-[1064px] box-sizing-border">
     <div class="relative flex flex-row gap-[0_11px] w-[179px] h-[fit-content] box-sizing-border">
       <img class="w-[41px] h-[45px]" />
-      <div class="rounded-[8px] border-[2px_solid_#F8EBFD] bg-[#AA1070] relative m-[4px_0_4px_0] flex flex-row justify-center p-[1px_1px_2px_1px] w-[75px] h-[fit-content] box-sizing-border">
-        <div class="rounded-[8px] bg-[#CD3F97] relative flex flex-row justify-between p-[5px_8px_4px_0] w-[73px] h-[fit-content] box-sizing-border">
-          <span class="m-[0_12.5px_0_0] w-[20.3px] break-words font-['Short_Stack'] font-normal text-[20px] text-[#FFFFFF]">
-            1
-          </span>
-          <img class="m-[10px_0_10px_0] w-[10px] h-[5px]" />
-        </div>
-        <div class="rounded-[2px] bg-[#ED75C0] absolute right-[26px] bottom-[1px] w-[1px] h-[35px]">
-        </div>
-        <div class="rounded-[2px] bg-[#AA1070] absolute right-[25px] bottom-[1px] w-[1px] h-[35px]">
-        </div>
-      </div>
+  
       <img class="w-[41px] h-[45px]" />
     </div>
     <div class="absolute left-[0px] top-[0px] right-[0px] bottom-[0px] flex flex-row justify-between h-[100%] box-sizing-border">
