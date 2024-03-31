@@ -8,23 +8,8 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-} */
-
 body {
   font-family: "Short Stack";
-  /* color: rgb(var(--foreground-rgb)); */
-  /* background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb)); */
 }
 
 @layer utilities {
@@ -38,17 +23,13 @@ body {
 }
 
 .overlay-text {
-  font-size: 20px;
+  font-size: 1.5vw;
   text-transform: uppercase;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1; /* Ensure the text appears above the pseudo-element */
-}
-
-.lines{
-  left: 0;
+  z-index: 1;
 }
 
 .slider {
@@ -72,4 +53,20 @@ body {
 
 .next {
   transform: translateX(100%);
+}
+
+.clock::before {
+  content: url("/clock.svg");
+  position: relative;
+  top: 10px;
+  left: 5px;
+  padding: 0 7px;
+}
+
+.clock::after {
+  content: url("/house.svg");
+  display: inline-block;
+  position: relative;
+  padding: 0 10px;
+  top: 10px;
 }
